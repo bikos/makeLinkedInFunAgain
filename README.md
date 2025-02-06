@@ -2,7 +2,7 @@
 
 A Chrome extension that automatically hides suggested posts on LinkedIn, giving you a cleaner, more focused feed.
 
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/your-extension-id-here?label=Chrome%20Web%20Store)](https://chrome.google.com/webstore/detail/your-extension-id-here)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/odaiamhbkfmboafjnlgceefhgdkjkcmp?label=Chrome%20Web%20Store)](https://chrome.google.com/webstore/detail/odaiamhbkfmboafjnlgceefhgdkjkcmp)
 
 ## Features
 - Automatically hides suggested posts on LinkedIn
@@ -11,7 +11,7 @@ A Chrome extension that automatically hides suggested posts on LinkedIn, giving 
 - Lightweight and easy to use
 
 ## Installation
-1. Install from the [Chrome Web Store](https://chrome.google.com/webstore/detail/your-extension-id-here)
+1. Install from the [Chrome Web Store](https://chrome.google.com/webstore/detail/odaiamhbkfmboafjnlgceefhgdkjkcmp)
 2. Visit LinkedIn
 3. Suggested posts are automatically hidden
 
