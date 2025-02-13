@@ -1,14 +1,18 @@
 // Function to hide a single suggested card
 function hideSuggestedCard(card) {
-    if (card.textContent.includes('Suggested')) {
-        card.setAttribute('style', 'display: none !important');
+    // Look for the header text that says "Suggested"
+    const header = card.querySelector('.update-components-header__text-view');
+    
+    // Only hide if it's a suggested post (has the header text "Suggested")
+    if (header && header.textContent.trim() === 'Suggested') {
+        card.closest('.feed-shared-update-v2__control-menu-container').setAttribute('style', 'display: none !important');
     }
 }
 
 // Function to hide all suggested cards
 function hideSuggestedCards() {
-    const suggestedCards = document.querySelectorAll('.feed-shared-update-v2__control-menu-container');
-    suggestedCards.forEach(hideSuggestedCard);
+    const cards = document.querySelectorAll('.feed-shared-update-v2__control-menu-container');
+    cards.forEach(hideSuggestedCard);
 }
 
 // MutationObserver to watch for new cards added to the DOM
